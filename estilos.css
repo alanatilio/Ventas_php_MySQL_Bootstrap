@@ -1,0 +1,12 @@
+
+img {
+    border: 0px dashed red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+}
