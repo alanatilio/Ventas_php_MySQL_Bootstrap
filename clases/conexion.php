@@ -5,7 +5,7 @@ class conectar{
     private $username = "root";
     private $pass = "";
 
-    public function conection(){
+    public function conexion(){
         $con = mysqli_connect($this-> severmame,
                             $this->username, 
                             $this->pass, 
