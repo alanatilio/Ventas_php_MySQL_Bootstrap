@@ -21,7 +21,7 @@
                     <div class="panel panel-body">
                         <div class="center">
                             <img class="img_center" src="img/araho.png" width="" height="250" align="center">
-                        </div>
+                        </div><br><br><br>
                         <form id="frmLogin" method="post" action="Usuarios/index.php">
                             <label>Usuario</label>
                             <input class="form-control input-sm" type="text" name="usuario" id="usuario">

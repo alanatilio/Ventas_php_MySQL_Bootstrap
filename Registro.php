@@ -25,13 +25,13 @@
                         <div class="panel panel-danger ">
                             <form method="post" id="frmRegistro" action="Usuarios/index.php">
                                 <label> Nombre </label>
-                                <input required type=" text " class="form-control input-sm " name="nombre" id="nombre">
+                                <input required type="text" class="form-control input-sm " name="nombre" id="nombre">
                                 <label> Apellido </label>
-                                <input required type=" text " class="form-control input-sm " name="apellido" id=" apellido ">
-                                <label> Usuario </label>
-                                <input required type=" text " class="form-control input-sm " name="usuario" id="usuario">
+                                <input required type="text" class="form-control input-sm " name="apellido" id=" apellido ">
+                                <label> email </label>
+                                <input required type="email" class="form-control input-sm " name="email" id="email">
                                 <label> Password </label>
-                                <input required type=" text " class="form-control input-sm" name="password" id=" password ">
+                                <input required type="text" class="form-control input-sm" name="password" id=" password ">
                                 <p> </p>
                                 <input class="btn btn-outline-success" type="submit" value="Registrar">
                                 <a href="index.php" class="btn btn-outline-danger "> Regresar login </a>
