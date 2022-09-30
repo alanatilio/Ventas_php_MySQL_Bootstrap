@@ -1,4 +1,5 @@
 <?php
+//estas dos incluciones nos sirben para poder usar dichos archivos inportandolos desde la carpeta de donde se encuentren
 //require_once "../clases/conexion.php";
 //require_once "../clases/usuarios.php";
 include '../clases/conexion.php';
