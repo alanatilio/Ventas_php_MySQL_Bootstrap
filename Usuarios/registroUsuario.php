@@ -1,8 +1,8 @@
 <?php
-//require_once "../clases/conexion.php";
-//require_once "../clases/usuarios.php";
-include '../clases/conexion.php';
-include '../clases/usuarios.php';
+require_once "../clases/conexion.php";
+require_once "../clases/usuarios.php";
+//include '../clases/conexion.php';
+//include '../clases/usuarios.php';
 
 $obj=new usuarios();
 

@@ -23,7 +23,7 @@
                     </div>
                     <div class="panel panel-danger ">
                         <div class="panel panel-danger ">
-                            <form method="post" id="frmRegistro" action="clases/usuarios.php">
+                            <form method="post" id="frmRegistro" action="Usuarios/registroUsuario.php">
                                 <label> Nombre </label>
                                 <input required type="text" class="form-control input-sm " name="nombre" id="nombre">
                                 <label> Apellido </label>
