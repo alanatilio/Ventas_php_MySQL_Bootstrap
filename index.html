@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loguin de usuario</title>
+    <link rel="stylesheet" type="text/css" href="librerias/css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        body {
+            background: #ffe259;
+            background: linear-gradient(to right, rgb(120, 38, 180), rgb(58, 34, 195), rgb(25, 158, 100) );
+        }
+
+        .bg {
+            background-image: url(img/ventas.jpg);
+            background-position: center center;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br><br>
+    <div class="container w-75 bg-light mt-5 rounded shadow ">
+        <div class="row">
+            <div class="col bg">
+
+            </div>
+            <div class="col">
+                <div class="text-end">
+                    <img src="/img/araho.png" width="48" alt="">
+                </div>
+
+                <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+                <!--LOGIN-->
+
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electonico</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password">
+                    </div>
+                    <div class="mb-4">
+                        <input type="checkbox" class="form-check-input " name="connected">
+                        <label for="connected" class="form-check-label ">Mantener la secion</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary ">Iniciar Sesion</button>
+                    </div>
+
+                    <div class="my-3">
+                        <span>No tiene una cuenta? <a href="#">Registrarse</a></span><br>
+                        <span><a href="#">Recuperar Password</a></span>
+
+                    </div>
+                </form>
+
+                <!--LOGN CON REDES SOCIALES-->
+                <div class="container w-100 my-5">
+                    <div class="row text-center">
+                        <div class="col-12"><b>Iniciar Sesion con</b></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-3 ">
+                                <div class="row align-items-center ">
+                                    <div class="col-2">
+                                        <img src="/icons/facebookRe.png" width="30" alt="">
+                                    </div>
+                                    <div class="col-8 text-center">
+                                        <b>Facebook</b>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-3 ">
+                                <div class="row align-items-center ">
+                                    <div class="col-2">
+                                        <img src="/icons//google.png" width="30" alt="">
+                                    </div>
+                                    <div class="col-8 text-center">
+                                        <b>Google</b>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="librerias/jquery-3.3.0.min.js"> </script>
+
+</body>
+
+</html>
